@@ -1,0 +1,37 @@
+Seed: 0
+Number of DAGs: 1
+
+Graph structure:
+  Generation method: "G(n, p)"
+  Number of nodes:
+    Fixed: 20
+  Probability of edge existence:
+    Fixed: 0.5
+  Number of source nodes:
+    Fixed: 5
+  Number of sink nodes:
+    Fixed: 5
+  Ensure weakly connected: True
+
+Properties:
+  Multi-rate:
+    Period:
+      Random: (1000, 10000, 1000)
+    Periodic type: "All"
+    Total utilization:
+      Fixed: 1.0
+
+
+Output formats:
+  Naming of combination directory: "Abbreviation"
+  DAG:
+    YAML: True
+    JSON: False
+    XML: False
+    DOT: False
+  Figure:
+    Draw legend: False
+    PNG: True
+    SVG: False
+    EPS: False
+    PDF: False
