@@ -1,17 +1,17 @@
-Seed: 215
+Seed: 840
 Number of DAGs: 1
 Graph structure:
   Generation method: "Fan-in/Fan-out"
   Number of nodes:
-      Fixed: 5
+      Fixed: 30
   In-degree:
-      Random: [1]
+      Random: [1, 2, 3]
   Out-degree:
-      Random: [1]
+      Random: [1, 2, 3]
   Number of source nodes:
-      Fixed: 1
+      Fixed: 3
   Number of sink nodes:
-      Fixed: 1
+      Fixed: 3
   Ensure weakly connected: True
 
 Properties:
