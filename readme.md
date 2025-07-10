@@ -1,4 +1,6 @@
-This progream is intended to reproduce the main experimental results from the paper 'Priority Optimization for Autonomous Driving Systems to Meet End-to-End Latency Constraints'.
+This program is intended to reproduce the main experimental results from the paper 'Priority Optimization for Autonomous Driving Systems to Meet End-to-End Latency Constraints'.
+
+The code was completed by Xisheng Li and Xiangqi Lan, who are both students at Dalian University of Technology.
 
 # Prerequisites
 1. Python version 3.10 or higher with the following packages:
@@ -6,7 +8,7 @@ This progream is intended to reproduce the main experimental results from the pa
 - networkx==2.6.3, pydot==1.4.2
 - numpy>=1.22.0, schema>=0.7.5, PyYAML>=5.3.1
 2. The latest Gurobi tool with the gurobipy package.
-3. The latest graphviz tool.
+3. The latest Graphviz tool.
 
 # Experiment Instructions
 To clear historical data and restart all experiments, please double-click the 'run python.bat' script. By default, the program runs a batch of 100 experiments per data point and will take approximately 8 hours to complete. Upon completion, the output text files for Figures 6 through 8 and Figures 9 through 15 will be saved in the 'saved_Data_1' and 'saved_Data_2' folders, respectively. The corresponding figures will be stored in the 'Pic1' and 'Pic2' folders.
