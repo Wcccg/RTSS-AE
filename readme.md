@@ -1,6 +1,6 @@
 This program is intended to reproduce the main experimental results from the paper 'Priority Optimization for Autonomous Driving Systems to Meet End-to-End Latency Constraints'.
 
-The code was completed by Xisheng Li and Xiangqi Lan, who are both students at Dalian University of Technology.
+The code was completed by Xisheng Li, who is a student at Dalian University of Technology.
 
 # Prerequisites
 1. Python version 3.10 or higher with the following packages:
